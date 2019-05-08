@@ -1,0 +1,13 @@
+{
+	"name": "cs410-chrome-extension",
+	"version": "0.1",
+	"description": "Description of extension",
+	"manifest_version": 2,
+	"permissions": ["activeTab"],
+	"content_scripts": [
+		{
+			"matches": ["https://www.reddit.com/*"],
+			"js": ["main.js"]
+		}
+	]
+}
