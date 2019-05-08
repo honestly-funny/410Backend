@@ -1,5 +1,5 @@
 window.onload = function($event) {
-	console.log("CHROME EXTENSION IS WORKING!!");
+	console.log("CHROME EXTENSION IS WORKING");
 	//createRequest();
 
 
