@@ -27,5 +27,5 @@ createRequest = function() {
 }
 
 function reqListener () {
-  console.log("Response from backend received", this.responseText);
+  console.log("Response from backend received", this.responseText + " If you want to check out some graphed results, hit the Results button below");
 }

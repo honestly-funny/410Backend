@@ -21,5 +21,5 @@ document.getElementById('twitter').onclick = createRequest;
 
 function reqListener () {
   console.log("Response from backend received", this.responseText);
-  document.getElementById('demo').textContent = this.responseText;
+  document.getElementById('demo').textContent = this.responseText   + " If you want to check out some graphed results, hit the Results button below";
 }
